@@ -108,7 +108,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       borderRadius: BorderRadius.all(Radius.circular(10))
                       ),
                       child: DropdownButton(
-                        
+                        style: TextStyle(fontSize: 30,color:Colors.blue),
                           value: _selectedItem,
                           items: _dropdownMenuItems,
                           onChanged: (value) {
